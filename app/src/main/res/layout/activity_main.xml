@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.project.my.thanh.nhat.pham.dang.fragmentdemocreate.MainActivity">
+
+    <fragment
+        android:layout_weight="1"
+        android:id="@+id/Fragmen_tLeft"
+        android:name="com.project.my.thanh.nhat.pham.dang.fragmentdemocreate.FragmentLeft"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <fragment
+        android:layout_weight="1"
+        android:id="@+id/Fragment_Right"
+        android:name="com.project.my.thanh.nhat.pham.dang.fragmentdemocreate.FragmentRight"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>
